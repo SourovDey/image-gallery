@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>light box</title>
+</head>
+<body>
+    
+    <div class="headofGallery">
+        <div class="content">
+            <h1>Forest Images Gallery</h1>
+            <p>The Hot Skills is a beautiful forest inspiration gallery with beautiful websites</p>
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i> <input type="search" placeholder="search Images">
+            </div>
+        </div>
+    </div>
+    <div class="gallery" id="flexbox">
+            
+                <img src="img/img 1.avif" onclick="img01()" alt="">
+                <img src="img/img 2.jpg" onclick="img02()" alt="">
+                <img src="img/img 3.avif" onclick="img03()" alt="">
+                <img src="img/img 4.avif" onclick="img04()" alt="">
+                <img src="img/img 5.jpg" onclick="img05()" alt="">
+                <img src="img/img 6.jpg" onclick="img06()" alt="">
+                <img src="img/img 7.avif" onclick="img07()" alt="">
+                <img src="img/img 8.jpg" onclick="img08()" alt="">
+                <img src="img/img 9.jpg" onclick="img09()" alt="">
+                <img src="img/img 10.jpg" onclick="img10()"  alt="">
+                <img src="img/img 11.avif" onclick="img11()"  alt="">
+                <img src="img/img 12.jpg" onclick="img12()"  alt="">
+            
+    </div>
+        
+        <div class="big-img showing-none">
+
+            <div class="overlay" onclick="over()">
+                
+            </div>
+            <div class="main-img">
+                <i class="fas fa-arrow-left" onclick="previous()"></i>
+                <img src="img/img 1.avif" class="slide-img" alt="">
+                <i class="fas fa-arrow-right" onclick="next()"></i>
+            </div>
+            
+
+        </div>
+        
+    <script src="https://kit.fontawesome.com/825d68f42c.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
